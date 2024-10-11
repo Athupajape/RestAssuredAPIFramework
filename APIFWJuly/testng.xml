@@ -8,13 +8,11 @@
       <class name="org.testing.testScripts.TestCase3_GetParticularMethod"/>
       <class name="org.testing.testScripts.TestCase4_PutMethod"/>
       <class name="org.testing.testScripts.TestCase5_DeleteMethod"/>
-      <!-- 
       <class name="org.testing.testScripts.TestCase6_PostMethodDummy"/>
       <class name="org.testing.testScripts.TestCase7_GetMethodDummy"/>
       <class name="org.testing.testScripts.TestCase8_GetParticularMethodDummy"/>
       <class name="org.testing.testScripts.TestCase9_PutMethodDummy"/>
       <class name="org.testing.testScripts.TestCase10_DeleteMethodDummy"/>
-      Test -->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
