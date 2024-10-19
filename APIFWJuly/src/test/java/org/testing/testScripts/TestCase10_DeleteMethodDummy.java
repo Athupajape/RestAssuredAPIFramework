@@ -17,6 +17,6 @@ public class TestCase10_DeleteMethodDummy {
 		Properties pro=PropertiesHandle.readPropertiesFile("../APIFWJuly/URI.properties");
 		HTTPMethodForDummy http=new HTTPMethodForDummy(pro);
 		Response res=http.DeleteDummyMethod("DUMMY_URI", "CG");
-		Boolean statusCode=validateResponse.validateStatusCode(204, res);
+		Boolean statusCode=validateResponse.validateStatusCode(204, res,"TestCase10_DeleteMethodDummy");
 	}
 }

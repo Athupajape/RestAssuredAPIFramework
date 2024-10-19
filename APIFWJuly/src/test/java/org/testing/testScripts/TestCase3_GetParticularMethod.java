@@ -18,6 +18,6 @@ public class TestCase3_GetParticularMethod {
 		//String jsondata=JsonHandling.readJsonData("../APIFWJuly/src/test/java/org/testing/resources/RequestBody.json");
 		HTTPMethods http=new HTTPMethods(pro);
 		Response res=http.GetParticularMethod("REAL_URI", "2");
-		Boolean statusCode=validateResponse.validateStatusCode(200, res);
+		Boolean statusCode=validateResponse.validateStatusCode(200, res,"TestCase3_GetParticularMethod");
 	}
 }

@@ -1,15 +1,17 @@
 package org.testing.assertion;
 
+import org.testing.utilities.LogsCapture;
+
 public class Assertion {
 
-	public static Boolean assert1(int expected,int actual) {
+	public static Boolean assert1(int expected,int actual,String className) {
 		
 		if(actual==expected) {
-			System.out.println("Status code is matching");
+			LogsCapture.takeLog("Status code is matching", className);
 			return true;
 		}
 		else {
-			System.out.println("Status code is not matching");
+			LogsCapture.takeLog("Status code is matching", className);
 			return false;
 		}
 	}

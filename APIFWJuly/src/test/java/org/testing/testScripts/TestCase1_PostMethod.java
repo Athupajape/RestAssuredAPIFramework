@@ -20,6 +20,6 @@ public class TestCase1_PostMethod {
 		String jsondata=JsonHandling.readJsonData("../APIFWJuly/src/test/java/org/testing/resources/RequestBody.json");
 		HTTPMethods http=new HTTPMethods(pro);
 		Response res=http.postMethod(jsondata, "REAL_URI");
-		Boolean statusCode=validateResponse.validateStatusCode(201, res);
+		Boolean statusCode=validateResponse.validateStatusCode(201, res,"TestCase1_PostMethod");
 	}
 }

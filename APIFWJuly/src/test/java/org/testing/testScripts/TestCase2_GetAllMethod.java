@@ -19,6 +19,6 @@ public class TestCase2_GetAllMethod {
 		//String jsondata=JsonHandling.readJsonData("../APIFWJuly/src/test/java/org/testing/resources/RequestBody.json");
 		HTTPMethods http=new HTTPMethods(pro);
 		Response res=http.GetAllMethod("REAL_URI2");
-		Boolean statusCode=validateResponse.validateStatusCode(200, res);
+		Boolean statusCode=validateResponse.validateStatusCode(200, res,"TestCase2_GetAllMethod");
 	}
 }

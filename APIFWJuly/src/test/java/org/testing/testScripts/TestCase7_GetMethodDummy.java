@@ -17,7 +17,7 @@ public class TestCase7_GetMethodDummy {
 		Properties pro=PropertiesHandle.readPropertiesFile("../APIFWJuly/URI.properties");
 		HTTPMethodForDummy http=new HTTPMethodForDummy(pro);
 		Response res=http.DummyGetMethod("DUMMY_URI");
-		Boolean statusCode=validateResponse.validateStatusCode(200, res);
+		Boolean statusCode=validateResponse.validateStatusCode(200, res,"TestCase7_GetMethodDummy");
 	}
 	
 }

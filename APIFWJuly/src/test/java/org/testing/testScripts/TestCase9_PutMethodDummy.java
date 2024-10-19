@@ -19,6 +19,6 @@ public class TestCase9_PutMethodDummy {
 		String jsondata=JsonHandling.readJsonData("../APIFWJuly/src/test/java/org/testing/resources/UpdateDummyRequestBody.json");
 		HTTPMethodForDummy http=new HTTPMethodForDummy(pro);
 		Response res=http.DummyPutMethod(jsondata, "DUMMY_URI","AP");
-		Boolean statusCode=validateResponse.validateStatusCode(201, res);
+		Boolean statusCode=validateResponse.validateStatusCode(201, res,"TestCase9_PutMethodDummy");
 	}
 }

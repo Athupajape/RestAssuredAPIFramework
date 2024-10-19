@@ -17,6 +17,6 @@ public class TestCase5_DeleteMethod {
 		//String jsondata=JsonHandling.readJsonData("../APIFWJuly/src/test/java/org/testing/resources/RequestBody.json");
 		HTTPMethods http=new HTTPMethods(pro);
 		Response res=http.DeleteMethod("REAL_URI", "2");
-		Boolean statusCode=validateResponse.validateStatusCode(204, res);
+		Boolean statusCode=validateResponse.validateStatusCode(204, res,"TestCase5_DeleteMethod");
 	}
 }
